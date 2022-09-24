@@ -1,0 +1,49 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: bisque;
+}
+h1 {
+  text-align: center;
+  color: rgb(165, 17, 17);
+  text-shadow: 2px 1px red;
+}
+.container {
+  background-image: url(/img/wood.jpg);
+  width: 640px;
+  height: 640px;
+  display: block;
+  border: 1px solid black;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+.vertical li:nth-child(odd) {
+  background-color: rgba(190, 31, 31, 0.933);
+  width: 80px;
+  height: 80px;
+}
+
+.horiz li:nth-child(even) {
+  background-color: rgba(109, 5, 92, 0.933);
+
+  width: 80px;
+  height: 80px;
+}
+.vertical {
+  display: flex;
+ 
+}
+
+.horiz {
+  display: flex;
+}
